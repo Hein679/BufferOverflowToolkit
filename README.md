@@ -1,0 +1,1 @@
+Python script, uses subprocess to check for invalid ASCII hex characters in a program and prints them out for shellcode development. Currently it does not take in any arguments so will have to manually change the executable name in the script.
