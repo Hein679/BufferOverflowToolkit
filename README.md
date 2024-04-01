@@ -6,8 +6,7 @@ It's a mix of manual and automation to help you identify bad characters faster w
 
 ![alt text](Images/usage.png)
 
-Watch the video: [demo.mp4](demo.mp4)
-
+Watch the video: [demo.mp4](https://github.com/Hein679/CheckBadCharacters/raw/main/demo.mp4)
 
 ## Expected Formats
 ### GDB Debugger Format
