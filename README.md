@@ -6,7 +6,8 @@ It's a mix of manual and automation to help you identify bad characters faster w
 
 ![alt text](Images/usage.png)
 
-<video controls src="Images/demo.mp4" title="Title"></video>
+Watch the video: [demo.mp4](demo.mp4)
+
 
 ## Expected Formats
 ### GDB Debugger Format
