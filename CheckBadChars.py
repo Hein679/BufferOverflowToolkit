@@ -3,7 +3,7 @@ import re
 import argparse
 from argparse import RawTextHelpFormatter
 
-parser = argparse.ArgumentParser(description='''Identify bad characters for Buffer Overflow. Look at example.txt for the expected format.
+parser = argparse.ArgumentParser(description='''Identify bad characters for Buffer Overflow. Look at examples.txt for the expected format.
                                  
 EXAMPLES:
     CheckBadChars.py ./hex_dump.txt
@@ -52,7 +52,7 @@ if (args.bad_chars):
 
 # Clean input_file & remove duplicates from list
 hex_dump = hex_dump.replace("\n", " ").replace("\t", " ").replace("0x", "").replace("\\x", "").replace(":", "").split(" ")
-hex_dump = [item.upper() for item in hex_dump if len(item) == 2]
+hex_dump = [item.upper() for item in hex_dump if len(item) == 2 and re.match(r'[0-9a-fA-F]{2}', item)]
 
 if (len(hex_dump) < 256):
     # You grabbed less than 256 characters from the dump
