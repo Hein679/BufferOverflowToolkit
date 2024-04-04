@@ -12,7 +12,7 @@ Watch the video: [How To Use](https://github.com/Hein679/BufferOverflowToolkit/r
 ### CheckBadCharacters.py
 ![alt text](Images/CheckBadChars.png)
 ![alt text](Images/CheckBadCharacters-example.png)
-Expected formats: [GDB](https://github.com/Hein679/BufferOverflowToolkit/blob/main/Examples/gdb_format.txt) & [Hex Dump](https://github.com/Hein679/BufferOverflowToolkit/blob/main/Examples/gdb_format.txt)
+Expected formats: [GDB](https://github.com/Hein679/BufferOverflowToolkit/blob/main/Examples/gdb_format.txt) & [Hex Dump](https://github.com/Hein679/BufferOverflowToolkit/blob/main/Examples/hexDunp_format.txt)
 
 ### ReverseEndian.py
 ![alt text](Images/ReverseEndian.png)
